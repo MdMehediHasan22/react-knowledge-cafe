@@ -12,7 +12,7 @@ function App() {
     const newBookmarks = [...bookmarks,blog];
     setBookmarks(newBookmarks);
    }
-   const handleMarkAsRead = time=>{
+   const handleMarkAsRead = time =>{
     console.log('marking as read',time);
    }
 
